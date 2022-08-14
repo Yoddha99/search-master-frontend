@@ -1,0 +1,42 @@
+body {
+  font-family: 'roboto', 'Open Sans', 'montserrat', sans-serif;
+}
+
+.logo-master {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar {
+  text-align: center;
+}
+
+.results {
+  max-width: 70vw;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  /* margin-top: 30px; */
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a8bbbf;
+}

@@ -42,7 +42,6 @@ const Search = () => {
     toast.info('Kindly wait while we fetch the results!', toastSettings);
 
 
-    // Make api call for this query q
     const response = await fetch(`https://search-that-file.herokuapp.com/search?q=${q}`);
 
     if (response.status === 200) {

@@ -1,4 +1,3 @@
-import './App.css';
 import 'react-toastify/dist/ReactToastify.min.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './styles/globals.css';

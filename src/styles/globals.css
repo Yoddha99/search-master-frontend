@@ -1,5 +1,13 @@
 body {
   font-family: 'roboto', 'Open Sans', 'montserrat', sans-serif;
+  letter-spacing: 0.7px;
+}
+
+img.navbar-logo {
+  max-width: 40px;
+  padding: 10px;
+  margin-top: 5px;
+  margin-left: 20px;
 }
 
 .logo-master {
@@ -7,6 +15,23 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.logo-master img {
+  max-width: 200px;
+  margin-top: 5px;
+}
+
+.disclaimer {
+  max-width: 75vw;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.disclaimer p {
+  font-weight: 500;
+  font-size: 0.85rem;
 }
 
 .search-bar {

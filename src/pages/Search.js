@@ -70,12 +70,7 @@ const Search = () => {
       <div className="navbar">
         <AppBar style={{ backgroundColor: '#333' }}>
           <Toolbar>
-            <img src={logo} alt="Search Master" style={{
-              maxWidth: 40,
-              padding: '10px',
-              marginTop: '5px',
-              marginLeft: '20px'
-            }} />
+            <img src={logo} alt="Search Master" className='navbar-logo' />
             <Typography variant="h5" style={{
               flexGrow: 1,
               marginLeft: '20px'
@@ -92,14 +87,17 @@ const Search = () => {
 
         {/* Center Logo section */}
         <div className="logo-master">
-          <img src={logo} alt="Search Master" style={{
-            maxWidth: 200,
-            marginTop: '5px',
-          }} />
+          <img src={logo} alt="Search Master" />
         </div>
 
         {/* Tagline */}
         <h2 style={{ textAlign: 'center', color: '#444' }}>Search through all your dropbox files!</h2>
+
+        <div className="disclaimer">
+          <p>This is a demo application that searches through the files stored on developer's Dropbox account.
+            Try searching for terms related to childrens' short stories such as "fox", "wolf", "golden egg", "friends"  etc..</p>
+        </div>
+
 
         {/* Search Bar */}
         <div className='search-bar'>
